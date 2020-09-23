@@ -7,7 +7,9 @@ apply plugin: 'dagger.hilt.android.plugin'
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
-
+    buildFeatures{
+        dataBinding = true
+    }
     defaultConfig {
         applicationId "br.com.jordilucas.digioteste"
         minSdkVersion 26
